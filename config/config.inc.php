@@ -43,7 +43,7 @@ $config['default_host'] = 'mail.smc.digital';
 // %d - domain (http hostname $_SERVER['HTTP_HOST'] without the first part)
 // %z - IMAP domain (IMAP hostname without the first part)
 // For example %n = mail.domain.tld, %t = domain.tld
-$config['smtp_server'] = 'tls://mail.smc.digital';
+$config['smtp_server'] = 'mail.smc.digital';
 
 // SMTP port (default is 25; use 587 for STARTTLS or 465 for the
 // deprecated SSL over SMTP (aka SMTPS))
