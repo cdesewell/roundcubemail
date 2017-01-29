@@ -263,7 +263,7 @@ $config['smtp_pass'] = '%p';
 
 // SMTP AUTH type (DIGEST-MD5, CRAM-MD5, LOGIN, PLAIN or empty to use
 // best server supported one)
-$config['smtp_auth_type'] = '';
+$config['smtp_auth_type'] = 'LOGIN';
 
 // Optional SMTP authentication identifier to be used as authorization proxy
 $config['smtp_auth_cid'] = null;
