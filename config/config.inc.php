@@ -28,7 +28,9 @@ $config['db_dsnw'] = 'mysql://roundcube:jellyfish24@shared-hosting.cqmwmgqe3cn5.
 // For example %n = mail.domain.tld, %t = domain.tld
 // WARNING: After hostname change update of mail_host column in users table is
 //          required to match old user data records with the new host.
-$config['default_host'] = 'mail.smc.digital';
+$config['default_host'] = 'ssl://mail.smc.digital';
+$config['default_port'] = 993;
+$config['imap_auth_type'] = LOGIN;
 
 // ----------------------------------
 // SMTP
