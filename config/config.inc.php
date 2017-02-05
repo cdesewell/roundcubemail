@@ -67,7 +67,7 @@ $config['support_url'] = 'smc.digital/support';
 // specify an URL relative to the document root of this Roundcube installation
 // an array can be used to specify different logos for specific template files, '*' for default logo
 // for example array("*" => "/images/roundcube_logo.png", "messageprint" => "/images/roundcube_logo_print.png")
-$config['skin_logo'] = 'http://smc.digital/wp-content/uploads/2016/07/SMC.png';
+$config['skin_logo'] = 'https://smc.digital/wp-content/uploads/2016/07/SMC.png';
 
 // This key is used for encrypting purposes, like storing of imap password
 // in the session. For historical reasons it's called DES_key, but it's used
